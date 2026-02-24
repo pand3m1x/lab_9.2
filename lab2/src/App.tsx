@@ -1,17 +1,15 @@
 import { useState } from 'react'
 
 import './App.css'
-import TextInput from './components/CharacterCounter/CharacterCounter'
-import StatsDisplay from './components/StatsDisplay/StatsDisplay'
+import CharacterCounter from './components/CharacterCounter/CharacterCounter'
 
 function App() {
   
 
   return (
-    <>
-     <TextInput></TextInput>
-     <StatsDisplay></StatsDisplay>
-    </>
+    <div>
+      <CharacterCounter></CharacterCounter>
+    </div>
   )
 }
 
