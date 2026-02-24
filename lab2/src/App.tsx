@@ -1,16 +1,16 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import TextInput from './components/CharacterCounter/CharacterCounter'
+import StatsDisplay from './components/StatsDisplay/StatsDisplay'
 
 function App() {
   
 
   return (
     <>
-      <TextInput></TextInput>
-      <CharacterCounter></CharacterCounter>
-      <StatsDisplay></StatsDisplay>
+     <TextInput></TextInput>
+     <StatsDisplay></StatsDisplay>
     </>
   )
 }
