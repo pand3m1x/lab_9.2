@@ -10,7 +10,7 @@ function App() {
     <div>
       <CharacterCounter></CharacterCounter>
     </div>
-  )
+  );
 }
 
 export default App

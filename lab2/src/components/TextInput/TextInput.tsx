@@ -1,15 +1,23 @@
 import React from 'react';
-import { TextInputProps } from '../../types';
+// import props { TextInputProps } from '../../types';
 
-export const TextInput: React.FC<TextInputProps> = ({
-  onTextChange,
-  placeholder = 'Start typing...',
-  initialValue = ''
-}) => {
-  return (
+// const TextInput: React.FC<TextInputProps> = ({
+//   onTextChange,
+//   placeholder = 'Start typing...',
+//   initialValue = ''
+// }) => {
+//   return (
 
+//   );
+// };
+
+function TextInput(){
+  return(
+    <>
+    </>
   );
-};
+}
+export default TextInput
 
 //  <div className="w-full">
 //       <textarea
